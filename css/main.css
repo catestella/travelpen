@@ -1,0 +1,82 @@
+/*==============COMMENT APP CSS==============*/
+
+body {
+	text-align: center;
+	background: url("../img/bg1.jpg") no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	margin-bottom: 34px;
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+	padding-top: 10px;
+}
+
+input {
+	margin-bottom: 20px;
+}
+
+li {
+	list-style-type: none;
+	text-align: left;
+	font-size: 20px;
+}
+
+/*====ANIMATION====*/
+.container .row h1 {
+	animation-name: tada;
+    animation-duration: 1.5s;
+}
+
+/*====INPUT FONT====*/
+.form-group input, textarea, button {
+	font-family: 'Lobster', cursive;
+}
+
+/*====INPUT BOX====*/
+.list-group-item {
+	font-family: 'Lobster', cursive;
+	background-color: #B7A8AF;
+	border: 2px dotted white;
+	opacity: 0.9;
+}
+
+/*====TRAVELPEN INFO====*/
+.info {
+	float: right;
+	color: white;
+	font-family: 'Lobster', cursive;
+	width:315px;
+	padding-top: 345px;
+	padding-right: 43px;
+}
+
+.info h3 {
+	font-size: 19px;
+}
+
+.info .airplane {
+	color: white;
+	margin-right: -42px;
+}
+
+/*====JAVASCRIPT NEW CLASS (IMG)====*/
+.newClass img {
+	width: 40px;
+}
+
+/*===============MEDIA QUERIES===============*/
+@media only screen and (max-width: 1230px) {
+    .info {
+    	display: none;  
+    }
+}
+
+/*@media only screen and (max-width: 1012px) {
+    .body{
+    	background-size: cover; 
+    }
+}*/
